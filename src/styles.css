@@ -1,0 +1,137 @@
+body {
+    text-align: center;
+    background: #DDEAE1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    font-size: 24px;
+    color: #1D3557;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #1D3557;
+}
+
+p {
+    font-size: 16px;
+    color: #1D3557;
+}
+
+.project-body {
+    border: 8px solid white;
+    border-radius: 20px;
+    width: 1000px;
+    margin: 30px auto;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.4);
+}
+
+.hero {
+    background-image: url("/images/torshov.png");
+    background-size: cover;
+    border-radius: 15px;
+    margin: 0 auto;
+    height: 343px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#name {
+    display: block;
+    margin: 0 auto;
+    background: #457B9D;
+    border-radius: 10px;
+    color: white;
+    height: 42px;
+    width: 225px;
+    font-size: 32px;
+    padding: 8px 0 0 0;
+}
+
+#description {
+    background: #1D3557;
+    color: white;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    height: 52px;
+    width: 412px;
+    margin: 12px auto 0 auto;
+    border-radius: 10px;
+    padding: 8px 20px 0 20px;
+}
+
+.activities-section {
+    background: #F1FAEE;
+    height: 378px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -20px;
+}
+
+.activities-section h3 {
+    margin-top: -20px;
+    margin-bottom: 40px;
+}
+
+.activities {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.activities img {
+    margin-bottom: 12px;
+    border-radius: 50%;
+    width: 100px;
+}
+
+.activities h4 {
+    margin: 10px auto;
+}
+
+.activities div {
+    height: 227px;
+    width: 198px;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.guide-section {
+    background: white;
+    height: 394px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background: #A8DADC;
+    height: 294px;
+    width: 430px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    border-radius: 10px;
+    border: 10px solid #A8DADC;
+    box-shadow: 0px 6px 0px #1D3557;
+}
+
+.card img {
+    width: 180px;
+    height: 240px;
+    border: 10px solid #A8DADC;
+}
+
+.card p {
+    font-style: italic;
+}
